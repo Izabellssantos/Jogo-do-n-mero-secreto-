@@ -43,28 +43,3 @@ function limparCampo () {
     chute.value = '';
 
 }
-
-"./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" 
-import java.io.File;
-
-public class RemoveImage {
-    public static void main(String[] args) {
-        // Caminho para o arquivo de imagem
-        String caminhoImagem = "caminho/para/sua/imagem.jpg"; // Substitua pelo caminho da sua imagem
-
-        // Cria um objeto File
-        File imagem = new File(caminhoImagem);
-
-        // Verifica se o arquivo existe
-        if (imagem.exists()) {
-            // Deleta o arquivo
-            if (imagem.delete()) {
-                System.out.println("Imagem removida com sucesso!");
-            } else {
-                System.out.println("Erro ao remover a imagem.");
-            }
-        } else {
-            System.out.println("Arquivo não encontrado.");
-        }
-    }
-}
