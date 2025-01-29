@@ -43,10 +43,6 @@ function limparCampo () {
     chute.value = '';
 
 }
-
-"./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" 
-import java.io.File;
-
 public class RemoveImage {
     public static void main(String[] args) {
         // Caminho para o arquivo de imagem
@@ -68,3 +64,4 @@ public class RemoveImage {
         }
     }
 }
+
